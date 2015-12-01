@@ -1,0 +1,112 @@
+<Ashram>
+    <Item>
+        <title>आश्रम</title>
+        <ImagePath>images/ashram/ashram.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><strong>आश्रम</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>स्वामीजींचे निवास स्थान</title>
+        <ImagePath>images/ashram/nivas.jpg</ImagePath>
+        <Element>स्वामीजींचे निवास स्थान</Element>
+        <Description></Description>
+        <Content><p><strong>स्वामीजींचे निवास स्थान</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>मंदिर जवळील सुंदर कारंजे</title>
+        <ImagePath>images/ashram/karanje.jpg</ImagePath>
+        <Element>मंदिर जवळील सुंदर कारंजे</Element>
+        <Description></Description>
+        <Content><p><strong>मंदिर जवळील सुंदर कारंजे</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>मंदिरातील प्रवेश द्वार</title>
+        <ImagePath>images/ashram/praveshdvar.jpg</ImagePath>
+        <Element>मंदिरातील प्रवेश द्वार</Element>
+        <Description></Description>
+        <Content><p><strong>मंदिरातील प्रवेश द्वार</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>सोऽहम् ध्वनी श्री हनुमंत</title>
+        <ImagePath>images/ashram/srihanuman.jpg</ImagePath>
+        <Element>सोऽहम् ध्वनी श्री हनुमंत</Element>
+        <Description></Description>
+        <Content><p><strong>सोऽहम् ध्वनी श्री हनुमंत</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>महाविष्णू मूर्ती</title>
+        <ImagePath>images/ashram/mahavishnu.jpg</ImagePath>
+        <Element>महाविष्णू मूर्ती</Element>
+        <Description></Description>
+        <Content><p><strong>महाविष्णू मूर्ती</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>स्वामीजीं समवेत प्रार्थना</title>
+        <ImagePath>images/ashram/prarthna.jpg</ImagePath>
+        <Element>स्वामीजीं समवेत प्रार्थना</Element>
+        <Description></Description>
+        <Content><p><strong>स्वामीजीं समवेत प्रार्थना</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>कालभैरव महाराज मंदिर</title>
+        <ImagePath>images/ashram/kalbhairav.jpg</ImagePath>
+        <Element>कालभैरव महाराज मंदिर</Element>
+        <Description></Description>
+        <Content><p><strong>कालभैरव महाराज मंदिर</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>दैनंदिन संध्याक्रम</title>
+        <ImagePath>images/ashram/sandhyakram.jpg</ImagePath>
+        <Element>दैनंदिन संध्याक्रम</Element>
+        <Description></Description>
+        <Content><p><strong>दैनंदिन संध्याक्रम</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>आश्रमातील विविध उत्सव</title>
+        <ImagePath>images/ashram/utsav.jpg</ImagePath>
+        <Element>आश्रमातील विविध उत्सव</Element>
+        <Description></Description>
+        <Content><p><strong>आश्रमातील विविध उत्सव</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>स्वामीजी व आसाहेब</title>
+        <ImagePath>images/ashram/darshan.jpg</ImagePath>
+        <Element>स्वामीजी व आसाहेब</Element>
+        <Description></Description>
+        <Content><p><strong>स्वामीजी व आसाहेब</strong></p>
+        </Content>
+    </Item>
+
+    <Item>
+        <title>स्वामीजी प्रसाद देताना</title>
+        <ImagePath>images/ashram/prasad.jpg</ImagePath>
+        <Element>स्वामीजी प्रसाद देताना</Element>
+        <Description></Description>
+        <Content><p><strong>स्वामीजी प्रसाद देताना</strong></p>
+        </Content>
+    </Item>
+
+
+</Ashram>
+

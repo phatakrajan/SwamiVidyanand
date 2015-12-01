@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'SwamiVidyanand'
+            keyPassword 'vidyanand'
+            storeFile file('C:/Users/rajan_phatak/.AndroidStudio1.4/SwamiVidyanand.jks')
+            storePassword 'vidyanand'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId 'com.swami.vidyanand'
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.google.android.gms:play-services-analytics:8.3.0'
+    compile 'com.google.android.gms:play-services-gcm:8.3.0'
+}

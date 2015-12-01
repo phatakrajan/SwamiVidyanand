@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Parampara>
+    <Item>
+        <title><strong>श्री आदिनाथ</strong></title>
+        <ImagePath>images/parampara/Adinath.jpg</ImagePath>
+        <Element></Element>
+        <Description> </Description>
+        <Content><p><h3>श्री आदिनाथ</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title><strong>श्री मत्स्येंद्रनाथ</strong></title>
+        <ImagePath>images/parampara/Matsyendranath.jpg</ImagePath>
+        <Element></Element>
+        <Description> 
+        </Description>
+        <Content><p><h3>श्री मत्स्येंद्रनाथ</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री गोरक्षनाथ</title>
+        <ImagePath>images/parampara/Gorakshanath.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>श्री गोरक्षनाथ</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री ज्ञानेश्वर महाराज</title>
+        <ImagePath>images/parampara/Dnyaneshwar.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>श्री ज्ञानेश्वर महाराज</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री चुडामणी महाराज</title>
+        <ImagePath>images/parampara/Chudamani.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>श्री चुडामणी महाराज</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री गुंडा महाराज</title>
+        <ImagePath>images/parampara/Gunda Maharaj.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>श्री गुंडा महाराज</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री रामचंद्र महाराज, बुटी</title>
+        <ImagePath>images/parampara/Ramchandra Maharaj.jpg</ImagePath>
+        <Element></Element>
+        <Description><strong>श्री रामचंद्र महाराज, बुटी</strong>
+            For detailed description switch to fullscreen mode.
+        </Description>
+        <Content><p><h3>श्री रामचंद्र महाराज, बुटी</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री महादेवनाथ</title>
+        <ImagePath>images/parampara/Mahadevnath.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>श्री महादेवनाथ</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री रामचंद्र महाराज तिकोटीकर</title>
+        <ImagePath>images/parampara/Ramchandra Maharaj Tikotikar.jpg</ImagePath>
+        <Element></Element>
+        <Description> </Description>
+        <Content><p><h3>श्री रामचंद्र महाराज तिकोटीकर</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री विश्वनाथ</title>
+        <ImagePath>images/parampara/Vishwanath.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>श्री विश्वनाथ</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>श्री गणेशनाथ</title>
+        <ImagePath>images/parampara/Ganeshnath.jpg</ImagePath>
+        <Element></Element>
+        <Description> </Description>
+        <Content><p><h3>श्री गणेशनाथ</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>स्वामी स्वरूपानंद</title>
+        <ImagePath>images/parampara/Swaroopanand.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>स्वामी स्वरूपानंद</h3></p>
+        </Content>
+    </Item>
+    <Item>
+        <title>स्वामी विद्यानंद</title>
+        <ImagePath>images/parampara/Vidyanand.jpg</ImagePath>
+        <Element></Element>
+        <Description></Description>
+        <Content><p><h3>स्वामी विद्यानंद</h3></p>
+        </Content>
+    </Item>
+</Parampara>
+

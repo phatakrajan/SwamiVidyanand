@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sampark>
+  <Item>
+    <title>संपर्क</title>
+    <ImagePath>images/sampark/sampark.gif</ImagePath>
+    <Element></Element>
+    <Description>
+संपर्क<br/>
+मुख्यालय, पुणे
+For detailed description switch to fullscreen mode.
+    </Description>
+    <Content>&lt;p>&lt;h2>संपर्क&lt;/h2>
+
+        &lt;/p>
+        &lt;ul>
+        &lt;strong>&lt;li>मुख्यालय, पुणे&lt;br/>
+        दिव्य जीवन वाटिकाश्रम&lt;br/>
+        हडपसर सासवड रोड,&lt;br/>
+        वङकी, ता. हवेली, जि. पुणे&lt;br/>
+        दुरध्यनी: +९१९४२२३१७५५०
+
+        &lt;/li>
+        &lt;br/>
+
+        &lt;li>जळगाव कार्यालय
+        &lt;/li>
+        दिव्य जीवन वाटिकांश्रम&lt;br/>
+        धुळे रोड, खोटे नगरच्या पुढे,&lt;br/>
+        जी. जळगाव&lt;br/>
+        दुरध्वनी: +९१२५७२२५३१४४
+
+        &lt;/strong>
+        &lt;/ul></Content>
+  </Item>
+  </Sampark>

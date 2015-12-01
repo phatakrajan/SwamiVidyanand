@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Granthalay>
+  <Item>
+    <title>ग्रंथालय</title>
+    <ImagePath>images/granthalay/granthalay.png</ImagePath>
+    <Element></Element>
+    <Content>&lt;p>&lt;strong>ग्रंथालय&lt;/strong>&lt;br/>
+      &lt;/p>
+      &lt;ul>
+      &lt;li>मुक्तिबोध&lt;/li>
+      &lt;li>आनंद लहरी&lt;/li>
+      &lt;li>एकनाथी भागवत&lt;/li>
+      &lt;li>ईशावस्योपनिषद&lt;/li>
+      &lt;li>केनोपनिषद&lt;/li>
+      &lt;li>कठोपानिषद&lt;/li>
+      &lt;li>प्रश्नोपनिषद&lt;/li>
+      &lt;li>मांडूक्योपनिषद&lt;/li>
+      &lt;li>छान्दोग्य उपनिषद्&lt;/li>
+      &lt;li>ऐतरियोपनिषद &lt;/li>
+      &lt;li>तैतिरियोपनिषद&lt;/li>
+      &lt;li>श्वेताश्वेतरोपनिशद&lt;/li>
+      &lt;li>मुंडक उपनिषद्&lt;/li>
+      &lt;li>स्वरुपस्पंद&lt;/li>
+      &lt;li>स्वात्मबोध चिंतन १&lt;/li>
+      &lt;li>स्वात्मबोध चिंतन २&lt;/li>
+      &lt;li>स्वात्मबोध चिंतन ३&lt;/li>
+      &lt;li>स्वात्मबोध चिंतन ४&lt;/li>
+      &lt;li>स्वात्मबोध चिंतन ५&lt;/li>
+      &lt;li>स्वात्मबोध चिंतन ६&lt;/li>
+      &lt;li>साधक बोध १&lt;/li>
+      &lt;li>साधक बोध २&lt;/li>
+      &lt;li>नारदीय भक्तीसुत्र भाग १&lt;/li>
+      &lt;li>नारदीय भक्तीसुत्र भाग २&lt;/li>
+      &lt;li>ज्ञानदेवीच्या सुवर्ण शलाका भाग १&lt;/li>
+      &lt;li>ज्ञानदेवीच्या सुवर्ण शलाका भाग २&lt;/li>
+      &lt;li>ज्ञानेश्वरी नित्य पाठ&lt;/li>
+      &lt;li>पत्र बोध &lt;/li>
+      &lt;li>आत्मतुशर&lt;/li>
+      &lt;li>शिवश्लोकि&lt;/li>
+      &lt;li>जगावेगळे जीवनपुष्प&lt;/li>
+      &lt;li>पवसचा पूर्णपुरूष&lt;/li>
+      &lt;li>दिव्यानंदी प्रेम स्वयंवर&lt;/li>
+      &lt;li>आराधना&lt;/li>
+      &lt;li>सोऽहम् हरिपाठ&lt;/li>
+      &lt;li>जशी आहे तशी&lt;/li>
+      &lt;/ul>
+    </Content>
+  </Item>
+</Granthalay>

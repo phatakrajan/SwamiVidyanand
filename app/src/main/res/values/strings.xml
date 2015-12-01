@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Swami Vidyanand</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_index"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7848962688204458/9161263724</string>
+    <string name="title_activity_item_description">ItemDescriptionActivity</string>
+    <string name="title_activity_sub_group">SubGroupActivity</string>
+    <string name="icon">Icon</string>
+    <string name="title_activity_slider">SliderActivity</string>
+    <string name="title_activity_short_item_description">ShortItemDescriptionActivity</string>
+    <string name="title_activity_slider_text">SliderTextActivity</string>
+    <string name="title_activity_sliter_text_fragment">SliterTextFragment</string>
+</resources>
