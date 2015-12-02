@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SwamiVidyanand.iml" filepath="$PROJECT_DIR$/SwamiVidyanand.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swamividyanandbackend/swamividyanandbackend.iml" filepath="$PROJECT_DIR$/swamividyanandbackend/swamividyanandbackend.iml" />
     </modules>
   </component>
 </project>

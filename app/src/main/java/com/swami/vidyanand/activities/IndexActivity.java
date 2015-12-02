@@ -22,6 +22,7 @@ import com.swami.vidyanand.data.IndexGroup;
 import com.swami.vidyanand.data.IndexItem;
 import com.swami.vidyanand.xml.XMLParser;
 import com.swami.vidyanand.xml.XmlModel;
+import com.swami.vidyanand.gcm.*;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
@@ -45,6 +46,8 @@ public class IndexActivity extends AppCompatActivity implements AdapterView.OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index);
+
+        new GcmRegistrationAsyncTask(this).execute();
 
         // Gets the ad view defined in layout/ad_fragment.xml with ad unit ID set in
         // values/strings.xml.
