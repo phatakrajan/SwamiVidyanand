@@ -10,10 +10,11 @@ public class Constants {
     public static final String START_POSITION = "StartPosition";
     public static final String IMAGEPATH = "ImagePath";
     public static final String DESCRIPTION = "Description";
+    public static final String MESSAGE = "Message";
 
     // Group Titles
     public static final String ASHRAM = "आश्रम";
-    public static final String MATAJI = "माताजी";
+    public static final String MATAJI = "आईसाहेब";
     public static final String PARAMPARA = "परंपरा";
     public static final String PARICHAY = "परिचय";
     public static final String PRABODHAN = "प्रबोधन" ;
@@ -32,6 +33,8 @@ public class Constants {
     public static final String ID_SAMPARK = "SAMPARK" ;
     public static final String ID_SUVICHAR = "SUVICHAR" ;
     public static final String ID_GRANTHALAY = "GRANTHALAY" ;
+    public static final String ID_HOME = "HOME" ;
+    public static final String ID_DAILYSUVICHAR = "DAILYSUVICHAR" ;
 
     public static final String PIC_ASHRAM = "images/pic_ashram.png";
     public static final String PIC_MATAJI = "images/pic_mataji.png";

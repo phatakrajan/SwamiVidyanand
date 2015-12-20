@@ -20,6 +20,7 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.swami.vidyanand.R;
+import com.swami.vidyanand.SwamiVidyanandApplication;
 import com.swami.vidyanand.data.Constants;
 import com.swami.vidyanand.data.IndexDataSource;
 import com.swami.vidyanand.data.IndexGroup;
@@ -137,6 +138,7 @@ public class SliderTextActivity extends AppCompatActivity {
             mAdView.resume();
         }
 
+        SwamiVidyanandApplication.getInstance().trackScreenView(getTitle().toString());
     }
 
     /** Called before the activity is destroyed */

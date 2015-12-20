@@ -5,9 +5,9 @@
         <ImagePath>images/suvichar/suvichar.jpg</ImagePath>
         <Element></Element>
         <Description> </Description>
-        <Content><p><h3>विद्यानंद म्हणे असावे वर्तन । जेणे नारायण नित्य जोडे ।।</h3>
+        <Content>&lt;p>&lt;h3>विद्यानंद म्हणे असावे वर्तन । जेणे नारायण नित्य जोडे ।।&lt;/h3>
 
-        </p>
+            &lt;/p>
         </Content>
     </Item>
     <Item>

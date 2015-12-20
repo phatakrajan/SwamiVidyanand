@@ -92,8 +92,8 @@
     </Item>
     <Item>
         <title>स्वामींचे प्रबोधन</title>
-        <ImagePath></ImagePath>
-        <Element>images/prabodhan/prabodhan.jpg</Element>
+        <ImagePath>images/prabodhan/prabodhan.jpg</ImagePath>
+        <Element></Element>
         <Description> </Description>
         <Content>&lt;p>स्वामींचे प्रबोधन&lt;br/>
             &lt;br/>

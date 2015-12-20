@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.swami.vidyanand.R;
+import com.swami.vidyanand.data.Constants;
+import com.swami.vidyanand.gcm.GcmRegistrationAsyncTask;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -18,10 +20,30 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        String message = "";
         final Intent mainIntent ;
+        if (getIntent().getExtras() != null) {
+            if (getIntent().getExtras().size() > 0) {
+                message = getIntent().getStringExtra(Constants.MESSAGE);
+                mainIntent = new Intent(SplashActivity.this,
+                        DailySuvicharActivity.class);
+                mainIntent.putExtra(Constants.MESSAGE, message);
+				/*try {
+					ShortcutBadger.setBadge(getApplicationContext(), 0);
+				} catch (ShortcutBadgeException e) {
+					// TODO Auto-generated catch block
+				}*/
+            } else {
+                mainIntent = new Intent(SplashActivity.this,
+                        IndexActivity.class);
+            }
+        }else {
+            mainIntent = new Intent(SplashActivity.this,
+                    IndexActivity.class);
+        }
 
-        mainIntent = new Intent(SplashActivity.this,
-                IndexActivity.class);
+        new GcmRegistrationAsyncTask(this).execute();
+
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
         new Handler().postDelayed(new Runnable() {
@@ -56,4 +78,5 @@ public class SplashActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

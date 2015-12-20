@@ -13,16 +13,18 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.swami.vidyanand.R;
+import com.swami.vidyanand.SwamiVidyanandApplication;
 import com.swami.vidyanand.data.Constants;
 import com.swami.vidyanand.data.IndexAdapter;
 import com.swami.vidyanand.data.IndexCommon;
 import com.swami.vidyanand.data.IndexDataSource;
 import com.swami.vidyanand.data.IndexGroup;
 import com.swami.vidyanand.data.IndexItem;
+import com.swami.vidyanand.gcm.GcmRegistrationAsyncTask;
 import com.swami.vidyanand.xml.XMLParser;
 import com.swami.vidyanand.xml.XmlModel;
-import com.swami.vidyanand.gcm.*;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
@@ -37,17 +39,27 @@ public class IndexActivity extends AppCompatActivity implements AdapterView.OnIt
 
     private AdView mAdView;
 
+    private InterstitialAd interstitial;
+
     ListView listView;
 
     List<? extends IndexCommon> groups;
 
     long lastPress = 0;
+
+    // Invoke displayInterstitial() when you are ready to display an interstitial.
+    public void displayInterstitial() {
+        if (interstitial.isLoaded()) {
+            interstitial.show();
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index);
 
-        new GcmRegistrationAsyncTask(this).execute();
+
 
         // Gets the ad view defined in layout/ad_fragment.xml with ad unit ID set in
         // values/strings.xml.
@@ -62,6 +74,14 @@ public class IndexActivity extends AppCompatActivity implements AdapterView.OnIt
 
         // Start loading the ad in the background.
         mAdView.loadAd(adRequest);
+
+        AdRequest adRequestInt = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        // Create the interstitial.
+        interstitial = new InterstitialAd(this);
+        interstitial.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
+        interstitial.loadAd(adRequestInt);
 
         IndexDataSource dataSrc = new IndexDataSource();
 
@@ -204,6 +224,8 @@ public class IndexActivity extends AppCompatActivity implements AdapterView.OnIt
         if (mAdView != null) {
             mAdView.resume();
         }
+
+        SwamiVidyanandApplication.getInstance().trackScreenView(Constants.ID_HOME);
     }
 
     /** Called before the activity is destroyed */

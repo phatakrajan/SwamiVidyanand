@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.swami.vidyanand.R;
+import com.swami.vidyanand.SwamiVidyanandApplication;
 import com.swami.vidyanand.data.Constants;
 import com.swami.vidyanand.data.IndexDataSource;
 import com.swami.vidyanand.data.IndexGroup;
@@ -66,6 +67,26 @@ public class ShortItemDescriptionActivity extends AppCompatActivity {
         {
 
         }
+    }
+
+    /** Called when returning to the activity */
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mAdView != null) {
+            mAdView.resume();
+        }
+
+        SwamiVidyanandApplication.getInstance().trackScreenView(getTitle().toString());
+    }
+
+    /** Called before the activity is destroyed */
+    @Override
+    public void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+        }
+        super.onDestroy();
     }
 
 }

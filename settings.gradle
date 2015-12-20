@@ -1,1 +1,1 @@
-include ':app', ':swamividyanandbackend'
+include ':app', ':swamividyanandbackend', ':servletbackend'

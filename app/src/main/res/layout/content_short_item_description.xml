@@ -39,7 +39,9 @@
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
                 android:textAlignment="gravity"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000080"/>
         </LinearLayout>
     </ScrollView>
 
